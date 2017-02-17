@@ -4,8 +4,9 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
+using MyCert.Data;
+using MyCert.Data.Models;
 using Owin;
-using MyCert.Web.Models;
 
 namespace MyCert.Web
 {
@@ -58,11 +59,11 @@ namespace MyCert.Web
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "622529809069-4i7gppuae2fahlf0hh6kdvbqunvf57pp.apps.googleusercontent.com",
+                ClientSecret = "Z_0_1lAzOzkkeiKiM3zsoEIL"
+            });
         }
     }
 }

@@ -10,6 +10,8 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
+using MyCert.Data;
+using MyCert.Data.Models;
 using MyCert.Web.Models;
 
 namespace MyCert.Web

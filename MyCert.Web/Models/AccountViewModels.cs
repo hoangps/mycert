@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace MyCert.Web.Models
@@ -8,6 +9,14 @@ namespace MyCert.Web.Models
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
+
+        [Required]
+        public string FirstName { get; set; }
+
+        [Required]
+        public string LastName { get; set; }
+
+        public string FullName { get; set; }
     }
 
     public class ExternalLoginListViewModel
@@ -79,6 +88,25 @@ namespace MyCert.Web.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        [Display(Name = "First Name")]
+        public string FirstName { get; set; }
+
+        [Required]
+        [Display(Name = "Last Name")]
+        public string LastName { get; set; }
+
+        public string FullName { get; set; }
+
+        public DateTime DateOfBirth { get; set; }
+
+        public string Address { get; set; }
+
+        public string PhoneNumber { get; set; }
+            
+        [Display(Name = "Social Identification Number")]
+        public string SocialIdentificationNumber { get; set; }
     }
 
     public class ResetPasswordViewModel
