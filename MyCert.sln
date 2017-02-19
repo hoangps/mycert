@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCert.Repository", "MyCert
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCert.Services", "MyCert.Services\MyCert.Services.csproj", "{FECC1E68-7BC5-4CD2-AC77-9C9229200458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCert.Api", "MyCert.Api\MyCert.Api.csproj", "{B88A703D-BBC4-4876-B809-C8CFBCE893EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCert.Admin", "MyCert.Admin\MyCert.Admin.csproj", "{14F3CCD0-784A-4A87-89E2-0EADB1FBE1AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{FECC1E68-7BC5-4CD2-AC77-9C9229200458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FECC1E68-7BC5-4CD2-AC77-9C9229200458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FECC1E68-7BC5-4CD2-AC77-9C9229200458}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B88A703D-BBC4-4876-B809-C8CFBCE893EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B88A703D-BBC4-4876-B809-C8CFBCE893EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B88A703D-BBC4-4876-B809-C8CFBCE893EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B88A703D-BBC4-4876-B809-C8CFBCE893EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F3CCD0-784A-4A87-89E2-0EADB1FBE1AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F3CCD0-784A-4A87-89E2-0EADB1FBE1AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F3CCD0-784A-4A87-89E2-0EADB1FBE1AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F3CCD0-784A-4A87-89E2-0EADB1FBE1AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,7 @@ namespace MyCert.Data.SeedData
 {
     public class SeedRoles
     {
-        private static readonly string[] Roles = { "SysAdmin", "Administrator", "Employer", "User" };
+        private static readonly string[] Roles = { "SysAdmin", "Administrator", "Tester", "Content Editor", "Employer", "User" };
 
         public static IdentityRole[] GetRoles()
         {

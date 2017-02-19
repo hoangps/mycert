@@ -25,6 +25,7 @@ namespace MyCert.Data.Models
 
         public bool IsEnabled { get; set; }
 
+        public double Price { get; set; }
 
         public Guid? CertificateId { get; set; }
         public Certificate Certificate { get; set; }

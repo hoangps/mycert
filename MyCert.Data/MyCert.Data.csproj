@@ -64,6 +64,10 @@
     <Compile Include="Migrations\201702152012372_InitialCreate.Designer.cs">
       <DependentUpon>201702152012372_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702191832562_UpdateDB_20170220.cs" />
+    <Compile Include="Migrations\201702191832562_UpdateDB_20170220.Designer.cs">
+      <DependentUpon>201702191832562_UpdateDB_20170220.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Answer.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
@@ -92,6 +96,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201702152012372_InitialCreate.resx">
       <DependentUpon>201702152012372_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702191832562_UpdateDB_20170220.resx">
+      <DependentUpon>201702191832562_UpdateDB_20170220.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
